@@ -1,0 +1,8 @@
+.comp1 {
+	p {
+		color: red;
+	}
+	p:nth-of-type(2) {
+		color: pink;
+	}
+}

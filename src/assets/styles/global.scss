@@ -1,0 +1,11 @@
+* {
+	padding: 0;
+	margin: 0;
+	//禁用文字选中
+	user-select: none;
+}
+
+img {
+	//禁止图片拖动
+	-webkit-user-drag: none;
+}
