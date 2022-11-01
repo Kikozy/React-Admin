@@ -1,0 +1,20 @@
+.box {
+	display: flex;
+	position: relative;
+	width: 300px;
+	.view {
+		border: 1px solid black;
+		img {
+			height: 300px;
+			width: 300px;
+		}
+	}
+	.fd {
+		position: absolute;
+		right: -500px;
+		top: 0;
+		width: 500px;
+		height: 500px;
+		background-color: red;
+	}
+}
