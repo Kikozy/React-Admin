@@ -16,17 +16,7 @@ const baseRouter = createBrowserRouter([
 	{
 		path: "/",
 		element: <Navigate to="/home" />,
-	},	uni.getUserProfile({
-		lang: 'zh_CN',
-		desc: '用户登录',
-		success: async userInfoRes => {
-			wxLoginState.tempUserData = userInfoRes.userInfo
-			console.log(wxLoginState.tempUserData)
-		},
-		fail: err => {
-			return
-		}
-	})
+	},
 	{
 		path: "/",
 		element: LoadingComponent(<App />),
